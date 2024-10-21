@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&family=Lato:wght@300&family=Lora&family=PT+Serif&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+.header{
+    background-color: red;
+    margin: auto;
+    padding: 20px;
+}
+.header h2{
+    font-family:'PT Serif', serif;
+    max-width: 1200px;
+    margin: auto 350px;
+    left: 0px;
+    bottom: 0px;
+    height: 60px;
+    width: 4%;
+    color: #fff;
+    font-size: 40px;
+    border-bottom: 3px solid #fff;
+}
+.circle1{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.container{
+    margin: 20px auto;
+    max-width: 590px;
+}
+.flex{
+    display: flex;
+}
+.grid-row{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+.card{
+    width:450px;
+    margin: 40px 0;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-top{
+    background-color: red;
+    color: #fff;
+    padding: 15px 50px ;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.card-body{
+    background-color: #fff;
+    color: #000;
+    padding: 60px 50px;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+progress{
+    accent-color:red;
+}
+progress[value]{
+    width: 100px;
+    height: 12px;
+    margin: 0 4px;
+}
+.btn{
+    display:inline-block;
+    width: 180px;
+    height: 50px;
+    padding: 10px 30px;
+    background-color:#fff;
+    color:#000;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.btn:hover {
+    transform: scale(0.95);
+    background-color: red;
+    color: #fff;
+}
+.button{
+    padding: 40px ;
+}
+
+
+

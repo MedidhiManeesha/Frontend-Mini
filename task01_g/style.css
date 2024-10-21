@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&family=Lato:wght@300&family=Lora&family=Open+Sans:wght@300&family=PT+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 500px;
+    margin: 20px 450px;
+}
+.text-center{
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-center p{
+    margin: 15px 0;
+    color:#9e9b93;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.box{
+    max-width: 1200px;
+    margin: 50px 100px;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+}
+.grid .row1{
+    margin: 0 45px;
+    grid-template-columns: repeat(6,100px);
+}
+.grid .row2{
+    grid-template-columns: repeat(7,100px);
+}
+.grid .row3{
+    margin: 0 45px;
+    grid-template-columns: repeat(6,100px);
+    
+}
+
+.btn{
+    border: none;
+    background-color:#4e5154;
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn1{
+    font-family: 'PT Serif', serif;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 50%;
+}

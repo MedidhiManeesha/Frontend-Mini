@@ -1,0 +1,157 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(img/pc1.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    overflow-x: hidden;
+}
+/* navbar */
+.navbar{
+    background-color:transparent;
+    height: 70px;
+    color:white ;
+}
+.navbar .flex{
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar a{
+    padding: 10px;
+    margin: 0 5px;
+    color: #8a8a79;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: white;
+    border-bottom: 2px #fff solid;
+}
+
+.bg-text {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    
+}
+/* contact form */
+.contact-form{
+    margin: 100px 0;
+}
+
+.grid-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+.grid-form input[type='text'],
+.grid-form input[type='tel'],
+.grid-form input[type='email']{
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+.grid-form input:focus{
+    outline: none;
+}
+.grid-form label{
+    margin: 10px 0;
+}
+.grid-form textarea{
+    font-size: 16px;
+    margin: 30px 0;
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+}
+.btn{
+    display: inline-block;
+    padding: 20px 35px;
+    margin: 30px 0;
+    background-color:#4f6af0;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 45%;
+
+}
+.btn:hover {
+    transform: scale(0.98);
+}
+/* footer section */
+.float-left{
+    display: flex;
+    float: left;
+}
+.float-right{
+    display: flex;
+    float: right;
+}
+.float-left ul{
+    display: flex;
+}
+.float-left li{
+    list-style-type: none;
+}
+.float-left a{
+    padding: 10px;
+    margin: 10px ;
+    color: #000;
+    text-decoration: none;
+}
+.float-right ul{
+    display: flex;
+}
+.float-right li{
+    list-style-type: none;
+}
+.float-right a{
+    padding: 10px;
+    margin: 20px 5px;
+    color: #000;
+    text-decoration: none;
+}
+.bottom{
+    margin: 100px 0;
+    padding: 5px 0;
+}
+/* utilities */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

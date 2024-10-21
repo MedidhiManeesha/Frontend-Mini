@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screener</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+<div class="navbar" id="myTopnav">
+    <div class="container flex">
+        <nav>
+        <a href="#home">HOME</a>
+        <a href="#screens">SCREENS</a>
+        <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">TOOLS
+        <i class="fas fa-angle-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        
+        </div>
+        </div> 
+        </nav>
+    </div>
+    <div class="container flex-end">
+        <button class="button login"><span><i class="fa-regular fa-user"></i></span> LOGIN</button>
+        <button class="button account">GET FREE ACCOUNT</button>
+    </div>
+    
+</div>
+<div class="text-center">
+    <img src="img/logo1.png" alt="">
+    <p style="font-size: 22px; padding-top: 8px;">Stock analysis and screening tool for investors in India.</p>
+    <form class="example">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search for a company" name="search">
+    </form>
+    <div>
+        <p class="grid-box grid">
+            <a class="btn-nooutline">Or analyse: </a>
+            <a class="btn btn-outline" href="">AvantiFeeds</a>
+            <a class="btn btn-outline" href="">GNFC</a>
+            <a class="btn btn-outline" href="">KovaiMedical</a>
+            <a class="btn btn-outline" href="">NGLFineChem</a>
+            <a class="btn btn-outline" href="">PermanentMagnet</a>
+            <a class="btn btn-outline" href="">PixTransmission</a>
+            <a class="btn btn-outline" href="">RACLGeartech</a>
+            <a class="btn btn-outline" href="">RossellIndia</a>
+            <a class="btn btn-outline" href="">ShivalikBimetal</a>
+            <a class="btn btn-outline" href="">TranspekInds</a>
+            
+        </p>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container1">
+        <div class="row">
+            <div class="footer-col ">
+                <img src="img/logo1.png" alt="" style="max-width: 150px;">
+                <p style="font-size: 22px; padding-top: 8px;">Stock analysis and screening tool</p>
+                <p style="color:#606F7B; font-size: 18px; padding-top: 8px;">Mittal Analytics Private Ltd © 2009-2023 <br>Made with in India</p>
+                <p style="color:#606F7B; padding-top: 8px;">Data provided by C-MOTS Internet Technologies Pvt Ltd</p>  
+                <div style="color:#606F7B; padding-top: 15px;"><a href="#" >Terms & Privacy.</a></div>
+            </div>
+        
+        <div class="row1">
+            <div class="footer-col box">
+                <h4>Product</h4>
+                <ul style="padding-top: 5px;">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Premium</a></li>
+                    <li><a href="">What's new?</a></li>
+                </ul>
+            </div>
+            <div class="footer-col box">
+                <h4>Team</h4>
+                <ul style="padding-top: 5px;">
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-col box">
+                <h4>Theme</h4>
+                <ul style="padding-top: 5px;">
+                    <li><a href=""><i class="fa-regular fa-sun"></i>  Light</a></li>
+                    <li><a href=""><i class="fa-regular fa-moon"></i>  Dark</a></li>
+                    <li><a href=""><i class="fa-solid fa-display"></i>  Auto</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+</footer>
+
+    <script>
+    /*dropdown open*/
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    }
+    /*dropdown close*/
+    window.onclick = function(e) 
+    {
+    if (!e.target.matches('.dropbtn')) 
+    {
+    var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) 
+    {
+    myDropdown.classList.remove('show');
+    }
+    }
+    }
+    
+    </script>
+</body>
+</html>
